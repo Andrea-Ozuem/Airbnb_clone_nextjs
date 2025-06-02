@@ -1,0 +1,110 @@
+{
+    "languages": [
+        {
+            "link": "#",
+            "name": "English",
+            "country": "United States",
+            "selected": true
+        },
+        {
+            "link": "#",
+            "name": "Azərbaycan dili",
+            "country": "Azərbaycan"
+        },
+        {
+            "link": "#",
+            "name": "Bahasa Indonesia",
+            "country": "Indonesia"
+        },
+        {
+            "link": "#",
+            "name": "Bosanski",
+            "country": "Bosna i Hercegovina"
+        },
+        {
+            "link": "#",
+            "name": "Català",
+            "country": "Espanya"
+        },
+        {
+            "link": "#",
+            "name": "Čeština",
+            "country": "Česká republika"
+        },
+        {
+            "link": "#",
+            "name": "Crnogorski",
+            "country": "Crna Gora"
+        },
+        {
+            "link": "#",
+            "name": "Dansk",
+            "country": "Danmark"
+        },
+        {
+            "link": "#",
+            "name": "Deutsch",
+            "country": "Deutschland"
+        },
+        {
+            "link": "#",
+            "name": "Deutsch",
+            "country": "Österreich"
+        },
+        {
+            "link": "#",
+            "name": "Deutsch",
+            "country": "Schweiz"
+        },
+        {
+            "link": "#",
+            "name": "Deutsch",
+            "country": "Luxemburg"
+        },
+        {
+            "link": "#",
+            "name": "Eesti",
+            "country": "Eesti"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "Australia"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "Canada"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "Guyana"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "India"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "Ireland"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "New Zealand"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "Singapore"
+        },
+        {
+            "link": "#",
+            "name": "English",
+            "country": "United Arab Emirates"
+        }
+    ]
+}

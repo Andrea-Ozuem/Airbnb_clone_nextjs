@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "name": "Unique stays",
+      "items": [
+        { "title": "Cabins", "subtitle": "United States" },
+        { "title": "Treehouses", "subtitle": "United States" },
+        { "title": "Glamping", "subtitle": "United States" },
+        { "title": "Tiny Houses", "subtitle": "United States" },
+        { "title": "Beach Houses", "subtitle": "United States" },
+        { "title": "Campers and RVs", "subtitle": "United States" },
+        { "title": "Lakehouses", "subtitle": "United States" },
+        { "title": "Yurt Rentals", "subtitle": "United States" },
+        { "title": "Yurt Rentals", "subtitle": "United Kingdom" },
+        { "title": "Castle Rentals", "subtitle": "United States" },
+        { "title": "Houseboats", "subtitle": "United States" },
+        { "title": "Holiday Caravans", "subtitle": "United Kingdom" },
+        { "title": "Private Island Rentals", "subtitle": "United States" },
+        { "title": "Farm Houses", "subtitle": "United States" },
+        { "title": "Farm Cottages", "subtitle": "United Kingdom" },
+        { "title": "Cabin Rentals", "subtitle": "Australia" },
+        { "title": "Luxury Cabins", "subtitle": "United Kingdom" },
+        { "title": "Luxury Cabins", "subtitle": "United States" }
+      ]
+    },
+    {
+      "name": "Categories",
+      "items": [
+        { "title": "Beach" },
+        { "title": "Cabins" },
+        { "title": "Tiny homes" },
+        { "title": "Lake" },
+        { "title": "National parks" },
+        { "title": "Trending" },
+        { "title": "Farms" },
+        { "title": "Castles" }
+      ]
+    },
+    {
+      "name": "Travel tips & inspiration",
+      "items": [
+        { "title": "Travel guides", "subtitle": "Expert advice for travelers" },
+        { "title": "Seasonal getaways", "subtitle": "Perfect for any weather" },
+        { "title": "Road trips", "subtitle": "Scenic drives worth taking" },
+        { "title": "Travel tips", "subtitle": "Make trips smoother" },
+        { "title": "Family travel", "subtitle": "Fun for all ages" },
+        { "title": "Pet-friendly travel", "subtitle": "Bring furry friends along" }
+      ]
+    },
+    {
+      "name": "Airbnb-friendly apartments",
+      "items": [
+        { "title": "Apartments in Atlanta", "subtitle": "United States" },
+        { "title": "Apartments in Dallas", "subtitle": "United States" },
+        { "title": "Apartments in Houston", "subtitle": "United States" },
+        { "title": "Apartments in Phoenix", "subtitle": "United States" },
+        { "title": "Apartments in Seattle", "subtitle": "United States" }
+      ]
+    }
+  ]
+}

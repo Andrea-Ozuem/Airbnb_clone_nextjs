@@ -1,0 +1,25 @@
+{
+  "currencies": [
+    { "shortname": "USD", "fullname": "United States dollar", "symbol": "$", "selected": true },
+    { "shortname": "AUD", "fullname": "Australian dollar", "symbol": "$" },
+    { "shortname": "BRL", "fullname": "Brazilian real", "symbol": "R$" },
+    { "shortname": "BGN", "fullname": "Bulgarian lev", "symbol": "лв." },
+    { "shortname": "CAD", "fullname": "Canadian dollar", "symbol": "$" },
+    { "shortname": "CLP", "fullname": "Chilean peso", "symbol": "$" },
+    { "shortname": "CNY", "fullname": "Chinese yuan", "symbol": "¥" },
+    { "shortname": "COP", "fullname": "Colombian peso", "symbol": "$" },
+    { "shortname": "CRC", "fullname": "Costa Rican colon", "symbol": "₡" },
+    { "shortname": "CZK", "fullname": "Czech koruna", "symbol": "Kč" },
+    { "shortname": "DKK", "fullname": "Danish krone", "symbol": "kr" },
+    { "shortname": "EGP", "fullname": "Egyptian pound", "symbol": "ج.م" },
+    { "shortname": "AED", "fullname": "Emirati dirham", "symbol": "د.إ" },
+    { "shortname": "EUR", "fullname": "Euro", "symbol": "€" },
+    { "shortname": "GHS", "fullname": "Ghanaian cedi", "symbol": "GH₵" },
+    { "shortname": "HKD", "fullname": "Hong Kong dollar", "symbol": "$" },
+    { "shortname": "HUF", "fullname": "Hungarian forint", "symbol": "Ft" },
+    { "shortname": "INR", "fullname": "Indian rupee", "symbol": "₹" },
+    { "shortname": "IDR", "fullname": "Indonesian rupiah", "symbol": "Rp" },
+    { "shortname": "ILS", "fullname": "Israeli new shekel", "symbol": "₪" },
+    { "shortname": "JPY", "fullname": "Japanese yen", "symbol": "¥" }
+  ]
+}

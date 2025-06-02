@@ -1,0 +1,504 @@
+{
+  "cities": [
+    {
+      "name": "London",
+      "listings": [
+        {
+          "id": 83295,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Camden, London",
+          "price": 108,
+          "rating": 4.96,
+          "bannerImage": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+          "images": [
+            "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
+            "https://images.unsplash.com/photo-1552242718-c5360894aecd"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 14576,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Canary Wharf, London",
+          "price": 178,
+          "rating": 4.92,
+          "bannerImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+          "images": [
+            "https://images.unsplash.com/photo-1564078516393-cf04bd966897",
+            "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 67891,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Notting Hill, London",
+          "price": 93,
+          "rating": 4.81,
+          "bannerImage": "https://images.unsplash.com/photo-1598928636135-d146006ff4be",
+          "images": [
+            "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+            "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 38726,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Shoreditch, London",
+          "price": 149,
+          "rating": 4.95,
+          "bannerImage": "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e",
+          "images": [
+            "https://images.unsplash.com/photo-1564078516393-cf04bd966897", 
+            "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 19758,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Brixton, London",
+          "price": 85,
+          "rating": 4.78,
+          "bannerImage": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f",
+          "images": [
+            "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+            "https://images.unsplash.com/photo-1560185007-5f0bb1866cab"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        },
+        {
+          "id": 63425,
+          "title": "Cottage in London",
+          "type": "Cottage",
+          "location": "Greenwich, London",
+          "price": 140,
+          "rating": 4.91,
+          "bannerImage": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+          "images": [
+            "https://images.unsplash.com/photo-1580041065738-e72ab4c13088",
+            "https://images.unsplash.com/photo-1502672023488-70e25813eb80"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 97126,
+          "title": "Apartment in London",
+          "type": "Apartment",
+          "location": "Hampstead, London",
+          "price": 175,
+          "rating": 4.86,
+          "bannerImage": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c",
+          "images": [
+            "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+          ],
+          "nights": 3,
+          "guestFavorite": false
+        },
+        {
+          "id": 31586,
+          "title": "Loft in London",
+          "type": "Loft",
+          "location": "Hackney, London",
+          "price": 158,
+          "rating": 4.82,
+          "bannerImage": "https://images.unsplash.com/photo-1556912167-f556f1f39fdf",
+          "images": [
+            "https://images.unsplash.com/photo-1536376072261-38c75010e6c9",
+            "https://images.unsplash.com/photo-1484101403633-562f891dc89a"
+          ],
+          "nights": 2,
+          "guestFavorite": false
+        },
+        {
+          "id": 24857,
+          "title": "Room in London",
+          "type": "Room",
+          "location": "Richmond, London",
+          "price": 120,
+          "rating": 4.89,
+          "bannerImage": "https://images.unsplash.com/photo-1543489822-c49534f3271f",
+          "images": [
+            "https://images.unsplash.com/photo-1585128792020-803d29415281",
+            "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e"
+          ],
+          "nights": 1,
+          "guestFavorite": true
+        }
+      ]
+    },
+    {
+      "name": "Cape Town",
+      "listings": [
+        {
+          "id": 92631,
+          "title": "Apartment in Cape Town",
+          "type": "Apartment",
+          "location": "City Center, Cape Town",
+          "price": 87,
+          "rating": 4.94,
+          "bannerImage": "https://images.unsplash.com/photo-1622015663084-307d19eabbbf",
+          "images": [
+            "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+            "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 10483,
+          "title": "Apartment in Cape Town",
+          "type": "Apartment",
+          "location": "Green Point, Cape Town",
+          "price": 105,
+          "rating": 4.9,
+          "bannerImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92",
+          "images": [
+            "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+            "https://images.unsplash.com/photo-1560375823-797b1e5e066e"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 42671,
+          "title": "Villa in Clifton",
+          "type": "Villa",
+          "location": "Clifton, Cape Town",
+          "price": 350,
+          "rating": 4.99,
+          "bannerImage": "https://images.unsplash.com/photo-1613977257363-707ba9348227",
+          "images": [
+            "https://images.unsplash.com/photo-1613977257592-4a9a32f9141b",
+            "https://images.unsplash.com/photo-1613977257593-ca4926cc4e37"
+          ],
+          "nights": 3,
+          "guestFavorite": true
+        },
+        {
+          "id": 18752,
+          "title": "Beachfront Studio in Camps Bay",
+          "type": "Studio",
+          "location": "Camps Bay, Cape Town",
+          "price": 138,
+          "rating": 4.92,
+          "bannerImage": "https://images.unsplash.com/photo-1528913775512-624d24b27b96",
+          "images": [
+            "https://images.unsplash.com/photo-1584453147785-939fae55a377",
+            "https://images.unsplash.com/photo-1615880484746-a134be9a6ecf"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 95324,
+          "title": "Apartment in Observatory",
+          "type": "Apartment",
+          "location": "Observatory, Cape Town",
+          "price": 75,
+          "rating": 4.83,
+          "bannerImage": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+          "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+            "https://images.unsplash.com/photo-1551516594-56cb78394645"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        },
+        {
+          "id": 36921,
+          "title": "Loft in Woodstock",
+          "type": "Loft",
+          "location": "Woodstock, Cape Town",
+          "price": 95,
+          "rating": 4.87,
+          "bannerImage": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+          "images": [
+            "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8",
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+          ],
+          "nights": 2,
+          "guestFavorite": false
+        },
+        {
+          "id": 72546,
+          "title": "Mountain View Home in Hout Bay",
+          "type": "House",
+          "location": "Hout Bay, Cape Town",
+          "price": 165,
+          "rating": 4.95,
+          "bannerImage": "https://images.unsplash.com/photo-1523217582562-09d0def993a6",
+          "images": [
+            "https://images.unsplash.com/photo-1502672023488-70e25813eb80",
+            "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 29785,
+          "title": "Beachfront Apartment in Bloubergstrand",
+          "type": "Apartment",
+          "location": "Bloubergstrand, Cape Town",
+          "price": 145,
+          "rating": 4.97,
+          "bannerImage": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c",
+          "images": [
+            "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
+            "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 85231,
+          "title": "Studio in Gardens",
+          "type": "Studio",
+          "location": "Gardens, Cape Town",
+          "price": 90,
+          "rating": 4.85,
+          "bannerImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+          "images": [
+            "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e",
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "listings": [
+        {
+          "id": 78523,
+          "title": "Apartment in Manhattan",
+          "type": "Apartment",
+          "location": "SoHo, New York",
+          "price": 195,
+          "rating": 4.88,
+          "bannerImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+          "images": [
+            "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+            "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 14572,
+          "title": "Loft in Brooklyn",
+          "type": "Loft",
+          "location": "Williamsburg, New York",
+          "price": 175,
+          "rating": 4.92,
+          "bannerImage": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+          "images": [
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 39584,
+          "title": "Room in Midtown",
+          "type": "Room",
+          "location": "Midtown, New York",
+          "price": 120,
+          "rating": 4.85,
+          "bannerImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+          "images": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+            "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        },
+        {
+          "id": 61294,
+          "title": "Studio in East Village",
+          "type": "Studio",
+          "location": "East Village, New York",
+          "price": 145,
+          "rating": 4.87,
+          "bannerImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+          "images": [
+            "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e",
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+          ],
+          "nights": 2,
+          "guestFavorite": false
+        },
+        {
+          "id": 82746,
+          "title": "Penthouse in Upper East Side",
+          "type": "Penthouse",
+          "location": "Upper East Side, New York",
+          "price": 380,
+          "rating": 4.98,
+          "bannerImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+          "images": [
+            "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+            "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e"
+          ],
+          "nights": 3,
+          "guestFavorite": true
+        },
+        {
+          "id": 27195,
+          "title": "Brownstone in Harlem",
+          "type": "House",
+          "location": "Harlem, New York",
+          "price": 210,
+          "rating": 4.91,
+          "bannerImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+          "images": [
+            "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+            "https://images.unsplash.com/photo-1600585153490-76fb20a32601"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 53861,
+          "title": "Room in Hell's Kitchen",
+          "type": "Room",
+          "location": "Hell's Kitchen, New York",
+          "price": 95,
+          "rating": 4.83,
+          "bannerImage": "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f",
+          "images": [
+            "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+            "https://images.unsplash.com/photo-1560185007-5f0bb1866cab"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "listings": [
+        {
+          "id": 94726,
+          "title": "Apartment in Le Marais",
+          "type": "Apartment",
+          "location": "Le Marais, Paris",
+          "price": 165,
+          "rating": 4.93,
+          "bannerImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+          "images": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+            "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 15873,
+          "title": "Studio with Eiffel Tower View",
+          "type": "Studio",
+          "location": "7th Arrondissement, Paris",
+          "price": 195,
+          "rating": 4.96,
+          "bannerImage": "https://images.unsplash.com/photo-1543489822-c49534f3271f",
+          "images": [
+            "https://images.unsplash.com/photo-1502672023488-70e25813eb80",
+            "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 62471,
+          "title": "Room in Montmartre",
+          "type": "Room",
+          "location": "Montmartre, Paris",
+          "price": 85,
+          "rating": 4.85,
+          "bannerImage": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+          "images": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+            "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        },
+        {
+          "id": 39154,
+          "title": "Luxury Apartment near Champs-Élysées",
+          "type": "Apartment",
+          "location": "8th Arrondissement, Paris",
+          "price": 280,
+          "rating": 4.97,
+          "bannerImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+          "images": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+            "https://images.unsplash.com/photo-1560448205-4d9b3e6bb6db"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 78241,
+          "title": "Apartment in Saint-Germain",
+          "type": "Apartment",
+          "location": "Saint-Germain, Paris",
+          "price": 175,
+          "rating": 4.94,
+          "bannerImage": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c",
+          "images": [
+            "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+            "https://images.unsplash.com/photo-1484101403633-562f891dc89a"
+          ],
+          "nights": 2,
+          "guestFavorite": true
+        },
+        {
+          "id": 24857,
+          "title": "Loft in Canal Saint-Martin",
+          "type": "Loft",
+          "location": "Canal Saint-Martin, Paris",
+          "price": 145,
+          "rating": 4.89,
+          "bannerImage": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+          "images": [
+            "https://images.unsplash.com/photo-1544881582-8b42a21a18a6",
+            "https://images.unsplash.com/photo-1539617546047-c523e32dc1a4"
+          ],
+          "nights": 2,
+          "guestFavorite": false
+        },
+        {
+          "id": 58276,
+          "title": "Studio in Latin Quarter",
+          "type": "Studio",
+          "location": "Latin Quarter, Paris",
+          "price": 110,
+          "rating": 4.86,
+          "bannerImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc",
+          "images": [
+            "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e",
+            "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+          ],
+          "nights": 1,
+          "guestFavorite": false
+        }
+      ]
+    }
+  ]
+}

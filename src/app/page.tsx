@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/Footer/Footer";
 import InspirationSection from "@/components/InspirationSection";
 import Listings from "@/components/Listings";
 

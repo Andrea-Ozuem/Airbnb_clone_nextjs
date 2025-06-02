@@ -12,7 +12,7 @@ const modal = {
     y: "0",
     opacity: 1,
     transition: {
-      duration: 0.4, // increase this to slow it down
+      duration: 0.4,
       ease: "easeOut",
     },
   },
@@ -20,7 +20,7 @@ const modal = {
     y: "100vh",
     opacity: 0,
     transition: {
-      duration: 5, // increase this to slow it down
+      duration: 5,
       ease: "easeOut",
     },
   },

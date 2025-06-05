@@ -1,4 +1,4 @@
-import LikeButton from "./LikeButton"
+import LikeButton from "./Buttons/LikeButton"
 
 export default function ListItem({ item }) {
     return (
@@ -6,7 +6,8 @@ export default function ListItem({ item }) {
             <a href="#"></a>
             <div className="flex flex-col">
                 <div 
-                    className="bg-(--colour-border) px-[12px] pt-[12px] rounded-[20px] bg-cover no-repeat aspect-20/19 w-[140px] md:w-[175px] lg:w-[188px]"
+                    className="bg-(--colour-border) px-[12px] pt-[12px] rounded-[20px] bg-cover no-repeat aspect-20/19 "
+                    // w-[140px] md:w-[175px] lg:w-[188px]
                     style={{backgroundImage: `url(${item.bannerImage})`}}
                 >
                     <div className="flex justify-between gap-[8px] items-start">

@@ -31,18 +31,20 @@ export default function InspirationSection() {
     const selectedItems = data.find(cat => cat.hasOwnProperty('selected'))!.items
 
     return (
-        <section className="bg-(--background-secondary) px-section pt-8 text-sm">
-            <h2 className="font-semibold mb-3 text-2xl">Inspiration for future getaways</h2>
-            <div className="border-b-[1px] text-(--colour-text-tertiary) flex border-(--colour-border) no-scrollbar overflow-x-auto ">
-                {data.map((category, index) => {
-                    const isFirst = index === 0
-                    return (
-                        <button onClick={() => changeSubMenu(category.name)} className={clsx(' font-medium px-3 py-3 relative whitespace-nowrap active:scale-[0.96]', category.selected && "after:content-[''] after:absolute after:bg-[#222222] after:h-[2px] after:w-3/4 after:start-3 after:bottom-0 text-(--colour)", isFirst && '-ml-3')} key={index}>{category.name}</button>
-                    )
-                })}
+        <section className="bg-(--background-secondary) text-sm">
+            <div className='px-section pt-8 '>
+                <h2 className="font-semibold mb-3 text-2xl">Inspiration for future getaways</h2>
+                <div className="border-b-[1px] text-(--colour-text-tertiary) flex border-(--colour-border) no-scrollbar overflow-x-auto ">
+                    {data.map((category, index) => {
+                        const isFirst = index === 0
+                        return (
+                            <button onClick={() => changeSubMenu(category.name)} className={clsx(' font-medium px-3 py-3 relative whitespace-nowrap active:scale-[0.96]', category.selected && "after:content-[''] after:absolute after:bg-[#222222] after:h-[2px] after:w-3/4 after:start-3 after:bottom-0 text-(--colour)", isFirst && '-ml-3')} key={index}>{category.name}</button>
+                        )
+                    })}
+                </div>
+                <CategoryItemsSubMenu items={selectedItems} />
+                
             </div>
-            <CategoryItemsSubMenu items={selectedItems} />
-            
         </section>
     );
 }

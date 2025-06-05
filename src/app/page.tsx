@@ -2,6 +2,8 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import InspirationSection from "@/components/InspirationSection";
 import Listings from "@/components/Listings";
+import { Suspense } from 'react';
+import { ListingsSkeleton } from "@/components/Skeletons";
 
 export default function Home() {
   return (
@@ -9,10 +11,13 @@ export default function Home() {
       <div className="w-full">
         <Header />
         <main >
-          <Listings />
-          <InspirationSection />
+          <Suspense fallback={<ListingsSkeleton />}>
+            <Listings />
+            <InspirationSection />
+            <Footer/>
+          </Suspense>
         </main>
-        <Footer/>
+        
       </div>
     </>
   );

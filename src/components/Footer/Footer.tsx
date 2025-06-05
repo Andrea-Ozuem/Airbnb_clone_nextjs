@@ -9,8 +9,8 @@ export default function Footer() {
         fill: 'currentcolor'
     }
     return (
-        <footer className="bg-[var(--background-secondary)] px-section pt-8 text-sm">
-            <div className="flex footer-pages flex-col md:flex-row py-8 md:gap-[10rem] lg:gap-[18rem]">
+        <footer className="bg-[var(--background-secondary)] text-sm">
+            <div className="flex px-section footer-pages flex-col md:flex-row py-8 md:gap-[10rem] lg:gap-[18rem]">
                 <div className="support py-(--spacing-mid) md:border-none border-b-[1px] border-(--colour-border)">
                     <h3 className="text-lg font-bold text-[14px]">Support</h3>
                     <ul>
@@ -79,7 +79,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="md:border-(--colour-border) md:border-t-[1px] py-(--spacing-mid) flex flex-col justify-between lg:flex-row">
+            <div className="px-section md:border-(--colour-border) md:border-t-[1px] py-(--spacing-mid) flex flex-col justify-between lg:flex-row">
                 <div className="links order-first lg:order-last flex flex-col md:flex-row justify-between">
                     <div className="flex items-center mb-2 gap-2 lg:me-5">
                         {/* <Button>

@@ -14,9 +14,11 @@
   --colour-text-tertiary: #6A6A6A;
   --colour-muted-grey: rgb(247, 247, 247);
   --colour-very-light-grey: rgb(106, 106, 106);
-  --listing-gap: 12px;
   --theme-colour: #FF385C;
   --theme-grey: #F2F2F2;
+  --contentscroller_gap: 11px;
+  --contentscroller_visible-items: 2;
+  --contentscroller_auto-columns: calc((100% - var(--contentscroller_gap) * (var(--contentscroller_visible-items) - 1)) / var(--contentscroller_visible-items));
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.13 0.028 261.692);
@@ -49,6 +51,18 @@
   --sidebar-accent-foreground: oklch(0.21 0.034 264.665);
   --sidebar-border: oklch(0.928 0.006 264.531);
   --sidebar-ring: oklch(0.707 0.022 261.325);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --contentscroller_visible-items: 4;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --contentscroller_visible-items: 7;
+  }
 }
 
 @theme inline {
@@ -109,7 +123,7 @@ body {
   }
 
   .px-section {
-    @apply px-4 md:px-8 lg:px-12;
+    @apply px-4 md:px-8 lg:px-12 max-w-[1920px] mx-auto;
   }
 
   .text-title {
@@ -193,5 +207,11 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .grid-auto-cols-content-scroller {
+    grid-auto-columns: var(--contentscroller_auto-columns, calc((100% - var(--contentscroller_gap, 16px) * (var(--contentscroller_visible-items, unset) - 1)) / var(--contentscroller_visible-items, unset)));
   }
 }

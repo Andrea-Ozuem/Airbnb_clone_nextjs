@@ -6,7 +6,7 @@ import { useEffect, useState, useRef } from "react";
 import SearchIcon  from "../Icons/SearchIcon";
 import BreadIcon  from "../Icons/BreadIcon";
 import FilterForm from "../FilterForm";
-import PagesNav from '../PagesNav';
+import PagesNav from './PagesNav';
 import {Logo, LargeLogo} from '../Icons/Logo';
 import { motion, useScroll, useTransform, useMotionValue, animate } from "motion/react"
 import { AnimatePresence } from "motion/react"
@@ -19,7 +19,9 @@ export default function Header() {
     const ticking = useRef(false);
 
     const rawScaleY = useTransform(scrollY, [0, 5], [2, 1], {clamp: true})
-    const scaleY = useMotionValue(2.5);
+
+    const scaleY = useMotionValue(2.0);
+
     useEffect(() => {
     const unsubscribe = rawScaleY.on("change", (v) => {
       animate(scaleY, v, {

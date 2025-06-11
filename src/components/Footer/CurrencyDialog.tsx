@@ -2,6 +2,7 @@ import {
     Dialog,
     DialogTrigger,
     DialogContent,
+    DialogTitle
 } from '../Dialog'
 
 import Currencies from '../Currencies';
@@ -13,6 +14,7 @@ export default function CurrencyDialog() {
                 $<span>USD</span>
             </DialogTrigger>
             <DialogContent>
+                <DialogTitle className='sr-only'>Curreny Dialog</DialogTitle>
                 <div className='border-b border-b-(--colour-border)'></div>
                 <Currencies />
             </DialogContent>

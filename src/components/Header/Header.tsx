@@ -5,7 +5,7 @@ import { useEffect, useState, useRef } from "react";
 // import Button from "../Buttons/Button";
 import SearchIcon  from "../Icons/SearchIcon";
 import BreadIcon  from "../Icons/BreadIcon";
-import FilterForm from "../FilterForm";
+import FilterForm from "../FilterForm/FilterForm";
 import PagesNav from './PagesNav';
 import {Logo, LargeLogo} from '../Icons/Logo';
 import { motion, useScroll, useTransform, useMotionValue, animate } from "motion/react"
@@ -14,16 +14,15 @@ import ProfileButton from '../ProfileButton'
 import GlobeDialog from './GlobeDialog';
 
 export default function Header() {
-  const { scrollY } = useScroll()
-    const [isVisible, setIsVisible] = useState(true);
-    const ticking = useRef(false);
+  const { scrollY } = useScroll();
+  const [isVisible, setIsVisible] = useState(true);
+  const ticking = useRef(false);
 
-    const rawScaleY = useTransform(scrollY, [0, 5], [2, 1], {clamp: true})
+  const rawScaleY = useTransform(scrollY, [0, 5], [2.3, 1], {clamp: true});
+  const scaleY = useMotionValue(2.3);
 
-    const scaleY = useMotionValue(2.0);
-
-    useEffect(() => {
-    const unsubscribe = rawScaleY.on("change", (v) => {
+  useEffect(() => {
+    const unsubscribe = rawScaleY.on("change", (v: number) => {
       animate(scaleY, v, {
         duration: 0.1,
         ease: "easeOut",
@@ -33,23 +32,23 @@ export default function Header() {
     return () => unsubscribe();
   }, [rawScaleY, scaleY]);
 
-    useEffect(() => {
-        const unsubscribe = scrollY.on("change", (latest) => {
-        if (!ticking.current) {
-            requestAnimationFrame(() => {
-            if (latest > 15 && isVisible) {
-                setIsVisible(false);
-            } else if (latest < 5 && !isVisible) {
-                setIsVisible(true);
-            }
-            ticking.current = false;
-            });
-            ticking.current = true;
-        }
+  useEffect(() => {
+    const unsubscribe = scrollY.on("change", (latest: number) => {
+      if (!ticking.current) {
+        requestAnimationFrame(() => {
+          if (latest > 15 && isVisible) {
+            setIsVisible(false);
+          } else if (latest < 5 && !isVisible) {
+            setIsVisible(true);
+          }
+          ticking.current = false;
         });
+        ticking.current = true;
+      }
+    });
 
-        return () => unsubscribe();
-    }, [scrollY, isVisible]);
+    return () => unsubscribe();
+  }, [scrollY, isVisible]);
 
   return (
     <div className="sticky top-0">

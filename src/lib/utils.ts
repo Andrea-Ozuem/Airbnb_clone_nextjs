@@ -13,7 +13,7 @@ export function on<T extends Event>(
 ) {
   document.addEventListener(
     eventType,
-    (e) => {
+    (e: Event) => {
       if (e.target instanceof Element) {
         const target = e.target.closest(selector);
         if (target) {

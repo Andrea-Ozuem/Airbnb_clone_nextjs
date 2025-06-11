@@ -13,9 +13,11 @@
   --colour-btn-active: #EBEBEB;
   --colour-text-tertiary: #6A6A6A;
   --colour-muted-grey: rgb(247, 247, 247);
+  ----colour-bebe: #ebebeb;
   --colour-very-light-grey: rgb(106, 106, 106);
   --theme-colour: #FF385C;
   --theme-grey: #F2F2F2;
+  --linaria-theme_palette-rausch-gradient: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
   --contentscroller_gap: 11px;
   --contentscroller_visible-items: 2;
   --contentscroller_auto-columns: calc((100% - var(--contentscroller_gap) * (var(--contentscroller_visible-items) - 1)) / var(--contentscroller_visible-items));
@@ -134,6 +136,13 @@ body {
     box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px,
             rgba(0, 0, 0, 0.05) 0px 4px 12px;
 
+  }
+
+  .filter-section:hover + .separator,
+  .separator:has(+ .filter-section:hover),
+  .filter-section:focus + .separator,
+  .separator:has(+ .filter-section:focus) {
+      visibility: hidden;
   }
 
   .thumb-only-scrollbar::-webkit-scrollbar {

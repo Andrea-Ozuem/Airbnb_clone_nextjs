@@ -102,7 +102,7 @@ export default function Listings() {
     }
 
     return (
-        <section className="bg-(--background) px-section py:4 md:py-18">
+        <section className="bg-(--background) px-section py:4 md:pt-24 pb-12">
             {cities.map((city, index) => (
                 <div key={city.name}>
                     <div className="flex justify-between items-center">

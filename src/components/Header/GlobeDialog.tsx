@@ -6,6 +6,7 @@ import {
     Dialog,
     DialogTrigger,
     DialogContent,
+    DialogTitle
 } from '../Dialog'
 
 // turn to lazy loading
@@ -44,6 +45,7 @@ export default function GlobeDialog() {
                 <GlobeIcon />
             </DialogTrigger>
             <DialogContent>
+                <DialogTitle>Currency and Language Modal Dialog</DialogTitle>
                 <div className='flex items-center gap-x-3 border-b-(--colour-border) border-b-1'>
                     {buttonCat.map((btn, idx) => (
                         <div key={idx} className='relative'>

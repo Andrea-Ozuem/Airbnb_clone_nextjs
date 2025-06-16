@@ -51,7 +51,7 @@ export default function Header() {
   }, [scrollY, isVisible]);
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-40" >
       <header className="bg-[linear-gradient(180deg,_#ffffff_39.9%,_#f8f8f8_100%)] w-full hidden md:block h-[80px]">
         <div className="relative h-full">
           <div className="hidden relative md:flex w-full h-full items-center justify-between">

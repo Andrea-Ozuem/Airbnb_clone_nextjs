@@ -3,7 +3,7 @@
 import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { X } from "lucide-react";
-import { motion, AnimatePresence} from "framer-motion";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const modal = {
@@ -16,7 +16,7 @@ const modal = {
       ease: "easeOut",
     },
   },
-  exit: { 
+  exit: {
     y: "100vh",
     opacity: 0,
     transition: {
@@ -24,9 +24,7 @@ const modal = {
       ease: "easeOut",
     },
   },
-  
 };
-
 
 const Dialog = DialogPrimitive.Root;
 
@@ -59,28 +57,30 @@ const DialogContent = React.forwardRef<
     <DialogOverlay />
     <DialogPrimitive.Content
       ref={ref}
-      onOpenAutoFocus={e => e.preventDefault()}
+      onOpenAutoFocus={(e) => e.preventDefault()}
       className={cn(
         "fixed inset-0 z-50 bg-transparent m-[40px] flex justify-center",
         className
       )}
       {...props}
     >
-        <motion.div 
-          className="pt-[64px] relative bg-white max-w-[1032px] max-h-full rounded-[30px] shadow-lg"
-          variants={modal}
-          initial="hidden"
-          animate="visible"
-          exit="exit"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <DialogPrimitive.Close className="absolute left-4 top-4 hover:bg-(--colour-muted-grey) rounded-full focus-visible:outline-none focus:bg-(--colour-muted-grey) focus:outline-none focus:ring-2 focus:ring-(--colour) disabled:pointer-events-none p-2">
-            <X className="h-4 w-4" />
-            <span className="sr-only">Close</span>
-          </DialogPrimitive.Close>
+      <motion.div
+        className="pt-[64px] relative bg-white max-w-[1032px] max-h-full rounded-[30px] shadow-lg"
+        variants={modal}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <DialogPrimitive.Close className="absolute left-4 top-4 hover:bg-(--colour-muted-grey) rounded-full focus-visible:outline-none focus:bg-(--colour-muted-grey) focus:outline-none focus:ring-2 focus:ring-(--colour) disabled:pointer-events-none p-2">
+          <X className="h-4 w-4" />
+          <span className="sr-only">Close</span>
+        </DialogPrimitive.Close>
 
-            <motion.div className="px-6 h-full overflow-y-clip">{children}</motion.div>
+        <motion.div className="px-6 h-full overflow-y-clip">
+          {children}
         </motion.div>
+      </motion.div>
     </DialogPrimitive.Content>
   </DialogPortal>
 ));
